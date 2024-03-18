@@ -31,8 +31,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3ZwNWZvcWpxY3k4Mmhucnd5dTJieG95MnkzbWo1ZGVuYjZ5dGJ2byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DQnfPemqfauTDUBUsh/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
+![Video Walkthrough](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3ZwNWZvcWpxY3k4Mmhucnd5dTJieG95MnkzbWo1ZGVuYjZ5dGJ2byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DQnfPemqfauTDUBUsh/giphy.gif)
 
 ## Notes
 
