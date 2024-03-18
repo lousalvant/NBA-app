@@ -1,25 +1,36 @@
-.summary-container {
+body {
+  background-image: url('https://wallpapercave.com/wp/wp1827445.jpg');
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+}
+
+.summary-cards-container {
   display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  margin-top: -350px; /* Adjust margin to move cards closer to the top */
+  margin-left: 300px;
 }
 
 .summary-card {
-  width: 300px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 20px;
-  margin: 0 10px;
+  background-color: rgba(12, 12, 12, 0.8); /* Transparent background */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside the card */
+  margin: 0 10px; /* Margin between cards */
+  height: 300px; /* Set a specific height for the cards */
+  width: 200px; /* Set a specific width for the cards */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.summary-card h2,
+.summary-card p {
+  margin: 0; /* Remove default margin */
+  overflow: hidden; /* Hide overflowing content */
+  text-overflow: ellipsis; /* Show ellipsis (...) for overflowed text */
+  white-space: nowrap; /* Prevent text from wrapping */
+  max-width: 100%; /* Limit text width to prevent stretching */
 }
 
 .team-card {
-  margin-top: 20px;
-}
-
-.team-card h3 {
-  margin-bottom: 10px;
-}
-
-.team-card p {
-  margin: 5px 0;
+  /* Add additional styles for the team cards if needed */
 }
